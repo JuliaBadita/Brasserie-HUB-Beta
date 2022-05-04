@@ -1,0 +1,50 @@
+.container__button-yellow {
+    margin-bottom: 2rem;
+  }
+  .button-yellow {
+    background-color: #FFF498;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Gravitas One', cursive;
+    font-size: 0.6rem;
+    line-height: 1.75rem;
+    padding: 2rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; 
+  }
+  
+  .button-yellow:focus {
+    outline: 0;
+  }
+  
+  .button-yellow:after {
+    content: '';
+    position: absolute;
+    border: 0.1rem solid #000000;
+    bottom: 0.4rem;
+    right: 0.4rem;
+    width: calc(100% - 0.1rem);
+    height: calc(100% - 0.1rem);
+  }
+  
+  .button-yellow:hover:after {
+    bottom: 0.2rem;
+    right: 0.2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .button-yellow {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
+  
