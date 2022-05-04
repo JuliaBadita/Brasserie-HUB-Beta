@@ -1,10 +1,16 @@
-import Slider from './components/Slider/Slider.js'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
+import Home from './pages/Home'
 
 function App() {
   return (
     <>
-      <Slider />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="" />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
