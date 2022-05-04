@@ -7,6 +7,7 @@ import Aretha from '../assets/aretha.png'
 import Frida from '../assets/frida.png'
 import Mathilda from '../assets/mathilda.png'
 import Goa from '../assets/goa.png'
+import ButtonShop from '../components/ButtonShop'
 
 const HomeTest = () => {
   return (
@@ -14,15 +15,18 @@ const HomeTest = () => {
       <HomeMockup />
       <Slider />
       <MapHUB />
-      <ButtonAbout />
-      <article className="grid grid-cols-3">
-        <img src={Aretha} alt="" className="" />
-        <img src={Frida} alt="" className="" />
-        <img src={Mathilda} alt="" className="" />
-        <img src={Goa} alt="" className="" />
-        <img src={Frida} alt="" className="" />
-        <img src={Goa} alt="" className="" />
-      </article>
+      <section className="bg-[#AACCCC] h-screen">
+        <article className="grid grid-cols-3 place-items-center justify-evenly">
+          <img src={Aretha} alt="" className="h-[65%] w-[65%]" />
+          <img src={Frida} alt="" className="h-[65%] w-[65%]" />
+          <img src={Mathilda} alt="" className="h-[65%] w-[65%]" />
+          <img src={Goa} alt="" className="h-[65%] w-[65%]" />
+          <img src={Frida} alt="" className="h-[65%] w-[65%]" />
+          <img src={Goa} alt="" className="h-[65%] w-[65%]" />
+          <ButtonAbout />
+          <ButtonShop />
+        </article>
+      </section>
     </div>
   )
 }
