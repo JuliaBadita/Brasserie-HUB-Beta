@@ -1,7 +1,7 @@
 .home__container-slider {
   max-width: 700px;
   height: 50rem;
-  margin: 10rem auto 0;
+  margin: 10rem auto;
   position: relative;
   overflow: hidden;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
