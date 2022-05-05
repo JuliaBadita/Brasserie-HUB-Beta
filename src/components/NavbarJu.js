@@ -63,13 +63,15 @@ const NavbarJu = () => {
               </NavLink>
             </li>
             <li className="font-gravitas mx-14 text-[1.5rem] text-[#292B29]">
-              <NavLink
-                to="/shop"
+              <a
+                href="https://shop.easybeer.fr/hoppyurbanbrew"
+                target="_blank"
+                rel="noreferrer"
                 // className="hover:underline decoration-[#c65f51] decoration-2 hover:text-[#c65f51]"
                 className="hover:text-[#C34839]"
               >
                 SHOP
-              </NavLink>
+              </a>
             </li>
           </ul>
         </nav>
