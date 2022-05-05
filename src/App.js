@@ -10,8 +10,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          {/* Page Home  */}
           <Route path="/" element={<HomeTest />} />
+
+          {/* Page Nos bières  */}
           <Route path="/beersJu" element={<BeersJu />} />
+
+          {/* Page Contact  */}
           <Route path="/contactJu" element={<ContactJu />} />
         </Routes>
       </BrowserRouter>

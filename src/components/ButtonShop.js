@@ -4,7 +4,9 @@ import './ButtonYellow.css'
 const ButtonShop = () => {
   return (
     <div className="container__button-yellow">
-      <button className="button-yellow">Notre Shop</button>
+      <a href="https://shop.easybeer.fr/hoppyurbanbrew">
+        <button className="button-yellow">Notre Shop</button>
+      </a>
     </div>
   )
 }
