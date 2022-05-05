@@ -10,9 +10,9 @@ const MapHUB = () => {
         height="450"
         className="m-auto mt-8"
         title="Carte Brasserie HUB"
-        allowfullscreen=""
+        allowFullScreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   )

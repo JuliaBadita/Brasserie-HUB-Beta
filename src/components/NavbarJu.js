@@ -46,7 +46,7 @@ const NavbarJu = () => {
             </li>
             <li className="font-gravitas mx-10 text-[1.5rem] text-[#292B29]">
               <NavLink
-                to="/beer"
+                to="/beersJu"
                 // className="hover:underline decoration-[#c65f51] decoration-2 hover:text-[#c65f51]"
                 className="hover:text-[#C34839]"
               >
@@ -55,7 +55,7 @@ const NavbarJu = () => {
             </li>
             <li className="font-gravitas mx-10 text-[1.5rem] text-[#292B29]">
               <NavLink
-                to="/contact"
+                to="/contactJu"
                 // className="hover:underline decoration-[#c65f51] decoration-2 hover:text-[#c65f51]"
                 className="hover:text-[#C34839]"
               >
@@ -73,13 +73,23 @@ const NavbarJu = () => {
             </li>
           </ul>
         </nav>
+
+        {/* Réseaux sociaux dans la nav  */}
         <article className="flex flex-row m-[-2rem]">
-          <img src={insta} className="w-[3rem] m-[2rem]" alt="logo Instagram" />
-          <img
-            src={facebook}
-            className="w-[3rem] m-[2rem]"
-            alt="logo Facebook"
-          />
+          <a href="https://www.instagram.com/hoppyurbanbrew/">
+            <img
+              src={insta}
+              className="w-[3rem] m-[2rem]"
+              alt="logo Instagram"
+            />
+          </a>
+          <a href="https://www.facebook.com/hoppyurbanbrew">
+            <img
+              src={facebook}
+              className="w-[3rem] m-[2rem]"
+              alt="logo Facebook"
+            />
+          </a>
         </article>
       </header>
     </>
