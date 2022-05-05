@@ -17,3 +17,8 @@ html {
     margin: 0;
     padding: 0;
   }
+
+  .active {
+    color: #C34839;
+    text-decoration: underline 0.2rem;
+  }
